@@ -58,3 +58,6 @@ python main_KAIST.py or python main_CAVE.py
 
 ---
 If you have any probelm, please contact with me: chenyurong1998@outlook.com
+
+If you use the code, please cite the paper:
+Yurong Chen, Yaonan Wang, Hui Zhang, "Prior Image Guided Snapshot Spectral Compressive Imaging", in *IEEE Transactions on Pattern Analysis and Machine Intelligence*, doi: 10.1109/TPAMI.2023.3265749, 2023.
