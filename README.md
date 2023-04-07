@@ -28,7 +28,10 @@ $$\hat{x} = \mathop{\arg\min}_{x} \frac{1}{2} ||y - Hx||_2^2 +  \lambda {\rm TV}
 ---
 
 - **Data Preparation**
-Download: 
+
+Download: [Google drive](https://drive.google.com/drive/folders/17LzFSdVCU2p0pfxbyghjZJw2nlf0yN97?usp=sharing) or [Baidu drive](https://pan.baidu.com/s/1mdLWXgvzkmQscfZu4t4M7A) (Code: u4er)
+
+Put the Data into *Dataset* folder
 
 ---
 
@@ -37,11 +40,18 @@ Download:
 ```
 # Solo utilizing PIDS regularization
 from func import TV_minimization
+
 x = TV_minimization(noisy_x, prior_img, tv_weight, tv_iter_max)
 ```
 
 
 ```
 # Running spectral image reconstruction with PIDS regularization
+# One can adjust these hyperparameters for getting better results.
+#                          tv_weight in main_KAIST.py or main_CAVE.py
+#                          tv_iter_max in main_KAIST.py or main_CAVE.py
+#                          gamma in model.py
+#                          alpha in func.py
+
 python main_KAIST.py or python main_CAVE.py
 ```
