@@ -66,4 +66,13 @@ python main_KAIST.py or python main_CAVE.py
 If you have any probelm, please contact with me: chenyurong1998@outlook.com
 
 If you use the code, please cite the paper:
-Yurong Chen, Yaonan Wang, Hui Zhang, "Prior Image Guided Snapshot Spectral Compressive Imaging", in *IEEE Transactions on Pattern Analysis and Machine Intelligence*, doi: 10.1109/TPAMI.2023.3265749, 2023.
+```
+@article{Yurong2023Prior,
+  title={Prior Image Guided Snapshot Spectral Compressive Imaging},
+  author={Yurong, Chen and Yaonan, Wang and Hui Zhang},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  DOI={10.1109/TPAMI.2023.3265749},
+  year={2023},
+  publisher={IEEE}
+}
+```
