@@ -47,13 +47,19 @@ x = TV_minimization(noisy_x, prior_img, tv_weight, tv_iter_max)
 
 ```
 # Running spectral image reconstruction with PIDS regularization
-# One can adjust these hyperparameters for getting better results.
+# One can adjust these hyperparameters for getting better results
 #                          tv_weight in main_KAIST.py or main_CAVE.py
 #                          tv_iter_max in main_KAIST.py or main_CAVE.py
 #                          gamma in model.py
 #                          alpha in func.py
 
 python main_KAIST.py or python main_CAVE.py
+```
+
+```
+# Running spectral image reconstruction with TV regularization
+# One can replace the code 'theta = TV_minimization(x1, ref_img, args.tv_weight, args.tv_iter_max)'
+               by the code 'theta = TV_denoiser(x1, args.tv_weight, args.tv_iter_max)' in model.py
 ```
 
 ---
