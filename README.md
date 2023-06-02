@@ -81,5 +81,4 @@ If you use the code, please cite the paper:
 
 - **Acknowledge**
 
-we greatly appreciate the help from Prof. He Wei (Wuhan Univeristy), Prof. Wang Lizhi (BIT), Prof. Cao Xun (Nanjin University).
-
+We greatly appreciate the help from Prof. He Wei (Wuhan University), Prof. Wang Lizhi (BIT), and Prof. Cao Xun (Nanjing University).
