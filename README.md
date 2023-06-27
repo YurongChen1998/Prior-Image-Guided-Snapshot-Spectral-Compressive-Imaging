@@ -21,7 +21,7 @@ $$PIDS(x, y^{PI}) \ \ = \ \ ||{\rm TV}(x) - {\rm TV}(y^{PI})||.$$
 
 $$||{\rm TV}(x) - {\rm TV}(y^{PI})|| \ \ \leq \ \ ||{\rm TV}(x - y^{PI})||.$$
 
-*The optimziation problem is formulated as* 
+*The optimization problem is formulated as* 
 
 $$\hat{x} = \mathop{\arg\min}_{x} \frac{1}{2} ||y - Hx||_2^2 +  \lambda {\rm TV}(x - y^{PI}).$$
 
