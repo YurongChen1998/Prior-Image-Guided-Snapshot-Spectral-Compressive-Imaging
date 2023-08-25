@@ -57,13 +57,39 @@ python main_KAIST.py or python main_CAVE.py
 ```
 
 ```
+In our work, we utilize the following settings:
+    For KAIST S1:  tv_weight/tv_iter_max/alpha = 30/30/0.65
+    For KAIST S2:  tv_weight/tv_iter_max/alpha = 45/30/0.55
+    For KAIST S3:  tv_weight/tv_iter_max/alpha = 25/25/0.65
+    For KAIST S4:  tv_weight/tv_iter_max/alpha = 25/25/0.50
+    For KAIST S5:  tv_weight/tv_iter_max/alpha = 35/30/0.85
+    For KAIST S6:  tv_weight/tv_iter_max/alpha = 35/30/0.95
+    For KAIST S7:  tv_weight/tv_iter_max/alpha = 45/40/0.45
+    For KAIST S8:  tv_weight/tv_iter_max/alpha = 27/30/0.45
+    For KAIST S9:  tv_weight/tv_iter_max/alpha = 27/30/0.70
+    For KAIST S10: tv_weight/tv_iter_max/alpha = 27/30/0.80
+
+    For CAVE S1:   tv_weight/tv_iter_max/alpha = 25/25/0.95
+    For CAVE S2:   tv_weight/tv_iter_max/alpha = 25/25/0.90
+    For CAVE S3:   tv_weight/tv_iter_max/alpha = 02/14/0.80
+    For CAVE S4:   tv_weight/tv_iter_max/alpha = 25/25/0.90
+    For CAVE S5:   tv_weight/tv_iter_max/alpha = 25/25/0.70
+    For CAVE S6:   tv_weight/tv_iter_max/alpha = 35/30/0.50
+    For CAVE S7:   tv_weight/tv_iter_max/alpha = 35/30/0.85
+    For CAVE S8:   tv_weight/tv_iter_max/alpha = 35/30/0.88
+    For CAVE S9:   tv_weight/tv_iter_max/alpha = 30/30/0.88
+    For CAVE S10:  tv_weight/tv_iter_max/alpha = 30/30/0.50
+```
+
+
+```
 # Running spectral image reconstruction with TV regularization
 # One can replace the code 'theta = TV_minimization(x1, ref_img, args.tv_weight, args.tv_iter_max)'
                by the code 'theta = TV_denoiser(x1, args.tv_weight, args.tv_iter_max)' in model.py
 ```
 
 ---
-If you have any probelm, please contact with me: chenyurong1998@outlook.com
+If you have any problem, please contact me: chenyurong1998 at outlook.com
 
 If you use the code, please cite the paper:
 ```
