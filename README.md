@@ -97,9 +97,10 @@ If you use the code, please cite the paper:
   title={Prior Image Guided Snapshot Spectral Compressive Imaging},
   author={Yurong, Chen and Yaonan, Wang and Hui Zhang},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  doi={10.1109/TPAMI.2023.3265749},
   year={2023},
-  publisher={IEEE}
+  volume={45},
+  number={9},
+  pages={11096-11107},
 }
 ```
 
