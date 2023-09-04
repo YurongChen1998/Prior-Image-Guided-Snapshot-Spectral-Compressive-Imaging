@@ -57,28 +57,29 @@ python main_KAIST.py or python main_CAVE.py
 ```
 
 ```
-In our work, we utilize the following settings:
-    For KAIST S1:  tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 30/30/0.65
-    For KAIST S2:  tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 45/30/0.55
-    For KAIST S3:  tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 25/25/0.65
-    For KAIST S4:  tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 25/25/0.50
-    For KAIST S5:  tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 35/30/0.85
-    For KAIST S6:  tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 35/30/0.95
-    For KAIST S7:  tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 45/40/0.45
-    For KAIST S8:  tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 27/30/0.45
-    For KAIST S9:  tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 27/30/0.70
-    For KAIST S10: tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 27/30/0.80
+In our work, we utilize the following settings :
+                   tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py)
+    For KAIST S1:  30/30/0.65
+    For KAIST S2:  45/30/0.55
+    For KAIST S3:  25/25/0.65
+    For KAIST S4:  25/25/0.50
+    For KAIST S5:  35/30/0.85
+    For KAIST S6:  35/30/0.95
+    For KAIST S7:  45/40/0.45
+    For KAIST S8:  27/30/0.45
+    For KAIST S9:  27/30/0.70
+    For KAIST S10: 27/30/0.80
 
-    For CAVE S1:   tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 25/25/0.95
-    For CAVE S2:   tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 25/25/0.90
-    For CAVE S3:   tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 02/14/0.80
-    For CAVE S4:   tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 25/25/0.90
-    For CAVE S5:   tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 25/25/0.70
-    For CAVE S6:   tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 35/30/0.50
-    For CAVE S7:   tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 35/30/0.85
-    For CAVE S8:   tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 35/30/0.88
-    For CAVE S9:   tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 30/30/0.88
-    For CAVE S10:  tv_weight (in main_*.py)/tv_iter_max (in main_*.py)/alpha (in func.py) = 30/30/0.50
+    For CAVE S1:   25/25/0.95
+    For CAVE S2:   25/25/0.90
+    For CAVE S3:   02/14/0.80
+    For CAVE S4:   25/25/0.90
+    For CAVE S5:   25/25/0.70
+    For CAVE S6:   35/30/0.50
+    For CAVE S7:   35/30/0.85
+    For CAVE S8:   35/30/0.88
+    For CAVE S9:   30/30/0.88
+    For CAVE S10:  30/30/0.50
 ```
 
 
