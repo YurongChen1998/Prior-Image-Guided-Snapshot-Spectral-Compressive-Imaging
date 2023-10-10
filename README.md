@@ -89,6 +89,11 @@ In our work, we utilize the following settings :
                by the code 'theta = TV_denoiser(x1, args.tv_weight, args.tv_iter_max)' in model.py
 ```
 
+
+- **Check Our Reconstructed Results**
+The reconstructed hyperspectral images of KAIST datasets are available here: [Google drive](https://drive.google.com/drive/folders/1OW9oQ0Sx-17PAsK2nHNP1W2jFE81hEQw?usp=sharing) or [Baidu drive](https://pan.baidu.com/s/10ET26r2MOCB3Gk40p7IerQ) (Code: 3i4a)
+
+
 ---
 If you have any problem, please contact me: chenyurong1998 at outlook.com
 
